@@ -1,0 +1,82 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5; /* Light background color */
+}
+
+/* Header styles */
+header {
+    background-color: #007bff; /* Blue header background */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Main sections */
+section {
+    padding: 50px;
+    background-color: #fff; /* White background for sections */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.mission-section {
+    background-color: #80dfff; /* Light blue for mission section */
+}
+
+.tips-section {
+    background-color: #b3ffb3; /* Light green for tips section */
+}
+
+.donate-section {
+    background-color: #ffc107; /* Yellow for donate section */
+    text-align: center;
+}
+
+/* Footer styles */
+footer {
+    background-color: #007bff; /* Blue footer background */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+/* Button styles */
+.donate-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #28a745; /* Green button background */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.donate-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    section {
+        padding: 30px;
+    }
+}
